@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Dana\\documents\\dev\\cookiecutters\\aspmvc-cookiecutter\\aspmvc-cookiecutter.csproj": {}
+    "C:\\Users\\Dana\\Documents\\Dev\\Cookiecutters\\ASPMVC-Cookiecutter\\{{cookiecutter.project_name}}\\aspmvc-cookiecutter.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Dana\\documents\\dev\\cookiecutters\\aspmvc-cookiecutter\\aspmvc-cookiecutter.csproj": {
+    "C:\\Users\\Dana\\Documents\\Dev\\Cookiecutters\\ASPMVC-Cookiecutter\\{{cookiecutter.project_name}}\\aspmvc-cookiecutter.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Dana\\documents\\dev\\cookiecutters\\aspmvc-cookiecutter\\aspmvc-cookiecutter.csproj",
+        "projectUniqueName": "C:\\Users\\Dana\\Documents\\Dev\\Cookiecutters\\ASPMVC-Cookiecutter\\{{cookiecutter.project_name}}\\aspmvc-cookiecutter.csproj",
         "projectName": "aspmvc-cookiecutter",
-        "projectPath": "C:\\Users\\Dana\\documents\\dev\\cookiecutters\\aspmvc-cookiecutter\\aspmvc-cookiecutter.csproj",
+        "projectPath": "C:\\Users\\Dana\\Documents\\Dev\\Cookiecutters\\ASPMVC-Cookiecutter\\{{cookiecutter.project_name}}\\aspmvc-cookiecutter.csproj",
         "packagesPath": "C:\\Users\\Dana\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Dana\\documents\\dev\\cookiecutters\\aspmvc-cookiecutter\\obj\\",
+        "outputPath": "C:\\Users\\Dana\\Documents\\Dev\\Cookiecutters\\ASPMVC-Cookiecutter\\{{cookiecutter.project_name}}\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dana\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -35,6 +35,18 @@
       },
       "frameworks": {
         "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "(, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
